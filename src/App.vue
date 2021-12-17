@@ -24,7 +24,7 @@ export default defineComponent({
 });
 </script>
 
-<style>
+<style lang="scss">
 * {
   background-color: black;
   color: grey;
@@ -34,5 +34,25 @@ export default defineComponent({
 
 a {
   color: lightskyblue;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
 }
 </style>
